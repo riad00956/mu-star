@@ -5,9 +5,9 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: python server.py
     envVars:
-      - key: BOT_TOKEN
+      - key: 8758203475:AAFQs5kgTLQFVCQAo5BxmovMaJ5079r5ntI
         sync: false          # You'll set this manually in Render dashboard
-      - key: ADMIN_IDS
+      - key: 8373846582
         sync: false
       - key: PYTHON_VERSION
         value: 3.10.12
