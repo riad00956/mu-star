@@ -19,7 +19,7 @@ load_dotenv()
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN    = os.getenv("BOT_TOKEN", "8758203475:AAGH0-qhxM-Bq6pbQyvF5kao2IVVwFhJumY")
+BOT_TOKEN    = os.getenv("BOT_TOKEN", "8758203475:AAFQs5kgTLQFVCQAo5BxmovMaJ5079r5ntI")
 _ADMIN_RAW   = os.getenv("ADMIN_IDS", "8373846582")
 ADMIN_IDS    = [int(x.strip()) for x in _ADMIN_RAW.split(",") if x.strip().isdigit()]
 DB           = "bot_data.db"
